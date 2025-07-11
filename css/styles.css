@@ -184,6 +184,7 @@ textarea.win95-input {
   #main-window,
   #about-window,
   #work-window,
+  #portfolio-content,
   #contact-window {
     top: auto !important;
     left: auto !important;
@@ -201,7 +202,6 @@ textarea.win95-input {
     flex-direction: row;      /* MODIFICADO: para que se vean en fila */
     justify-content: space-around; /* MODIFICADO: distribuir iconos */
     padding: 10px 0;
-    background: rgba(0, 0, 128, 0.3); /* MODIFICADO: fondo para distinguir en móvil */
     box-sizing: border-box;
   }
 
